@@ -26,7 +26,32 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-function show() {
-    id = document.getElementById("email");    
+function showit() {
+    id = document.getElementById("emailit");    
+    id.innerHTML = '<a href="mailto:mail@mciacchi.it" title="Inviami un e-mail"><h3>mail@mciacchi.it</h3></a>';
+}
+
+function showen() {
+    id = document.getElementById("emailen");    
     id.innerHTML = '<a href="mailto:mail@mciacchi.it" title="Send me an e-mail"><h3>mail@mciacchi.it</h3></a>';
 }
+
+let lang = navigator.language.slice(0, 2);
+
+if (lang === 'it') {
+	document.querySelectorAll('.en').forEach(elem => elem.style.display = 'none');
+} else {
+    document.querySelectorAll('.it').forEach(elem => elem.style.display = 'none');
+}
+
+var itaB = document.getElementById("ita");
+itaB.addEventListener("click", function() {
+	document.querySelectorAll('.it').forEach(elem => elem.style.display = 'block');
+	document.querySelectorAll('.en').forEach(elem => elem.style.display = 'none');
+});
+
+var engB = document.getElementById("eng");
+engB.addEventListener("click", function() {
+	document.querySelectorAll('.en').forEach(elem => elem.style.display = 'block');
+	document.querySelectorAll('.it').forEach(elem => elem.style.display = 'none');
+});
