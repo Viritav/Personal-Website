@@ -282,14 +282,21 @@ a:hover {
 	cursor: pointer;
 }
 
-#content {
+#contentit {
   background: #1c1c1c;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#introduction {
+#contenten {
+  background: #1c1c1c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#introductionit {
   align-items: center;
   text-align: center;
   display: flex;
@@ -297,7 +304,22 @@ a:hover {
   justify-content: center;
 }
 
-#introduction img {
+#introductionen {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#introductionit img {
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  margin-right: 10%;
+}
+
+#introductionen img {
   width: 10%;
   height: 10%;
   border-radius: 50%;
@@ -312,7 +334,13 @@ a:hover {
   padding-bottom: 10vh;
 }
 
-#aboutme {
+#aboutmeit {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  width: 70%;
+}
+
+#aboutmeen {
   padding-top: 10vh;
   padding-bottom: 10vh;
   width: 70%;
@@ -348,7 +376,13 @@ a:hover {
 	border-radius: 10px;
 }
 
-#projects {
+#projectsit {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  width: 70%;
+}
+
+#projectsen {
   padding-top: 10vh;
   padding-bottom: 10vh;
   width: 70%;
@@ -365,13 +399,19 @@ a:hover {
 	border-radius: 10px;
 }
 
-#certificates {
+#certificatesit {
   padding-top: 10vh;
   padding-bottom: 10vh;
   width: 70%;
 }
 
-#certificates img {
+#certificatesen {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  width: 70%;
+}
+
+#certificatesit img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -383,13 +423,35 @@ a:hover {
 	border-radius: 10px;
 }
 
-#contacts {
+#certificatesen img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+	box-shadow: 0 0px 32px 0 rgba( 255, 255, 255, 0.37 );
+	backdrop-filter: blur( 1.5px );
+	-webkit-backdrop-filter: blur( 1.5px );
+	border-radius: 10px;
+}
+
+#contactsit {
   padding-top: 10vh;
   padding-bottom: 10vh;
   width: 70%;
 }
 
-#contacts div {
+#contactsen {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  width: 70%;
+}
+
+#contactsit div {
+  display: flex;
+}
+
+#contactsen div {
   display: flex;
 }
 
