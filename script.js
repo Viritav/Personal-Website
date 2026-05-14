@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-	document.getElementById("year").innerHTML = new Date().getFullYear();
+	document.getElementById("footermsg").innerHTML = "Written by Marco Ciacchi&nbsp;&nbsp;|&nbsp;&nbsp;Copyright&nbsp;&nbsp;&copy; " + new Date().getFullYear();
     const menuLinks = document.querySelectorAll('.navigation-link');
     const sections = document.querySelectorAll('div[id]');
     function removeActiveClass() {
