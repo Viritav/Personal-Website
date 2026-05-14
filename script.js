@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
+	document.getElementById("year").innerHTML = new Date().getFullYear();
     const menuLinks = document.querySelectorAll('.navigation-link');
     const sections = document.querySelectorAll('div[id]');
     function removeActiveClass() {
